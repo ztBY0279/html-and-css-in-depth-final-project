@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+    background-color: rgba(0, 255, 183, 0.065);
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    margin-top: 50px;
+}
+
+nav {
+    background-color: blue;
+    text-align: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 15px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    font-size: large;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero div {
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.hero-img {
+    background-image: url("https://assets.gqindia.com/photos/62a9d4653e8cdc9b632eb2ad/16:9/w_1280,c_limit/10%20restaurants%20in%20Mumbai%20that%20offer%20the%20best%20sunset%20views.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    margin: 0;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero div h1 {
+    margin-top: 30px;
+    color: white;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.hero div p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.column {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    height: auto;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.column:hover {
+    transform: scale(1.05);
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+.column1 {
+    flex: 1;
+    margin-right: 8%;
+    padding: 10px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.animate-btn {
+    display: inline-block;
+    margin-top: 10
+}
+
+
+
+.timing{
+   width: 200px;
+   height: auto;
+}
+.timing p{
+    margin: 0px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+
+}
